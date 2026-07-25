@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://help.conexiom.com/knowledge-base/release-notes
+description: >-
+  Conexiom publishes dated product release notes in its help center, organized
+  as monthly entries under a per-year archive. The release notes cover the
+  Conexiom platform (document processing, applications, ERP integrations) rather
+  than a versioned developer API changelog. This artifact records the recent
+  window and the scheme; the live release-notes page is the source of truth.
+docs: https://help.conexiom.com/knowledge-base/release-notes
+versioning:
+  scheme: monthly-dated-release-notes
+  current: '2026-03'
+  detail: lifecycle/conexiom-lifecycle.yml
+entries:
+  - version: '2026-03'
+    date: '2026-03'
+    highlights:
+      - March 2026 platform release notes (see help center for detail).
+  - version: '2026-02'
+    date: '2026-02'
+    highlights:
+      - February 2026 platform release notes.
+  - version: '2026-01'
+    date: '2026-01'
+    highlights:
+      - January 2026 platform release notes.
+archives:
+  - '2025 Release Notes'
+  - '2024 Release Notes'
+  - '2023 Release Notes'

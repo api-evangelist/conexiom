@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  https://conexiom.com/platform/data-security-and-privacy — Conexiom's published
+  security and compliance posture. No public OpenAPI specification is available
+  to derive API-shape conformance (FHIR/OData/SCIM/JSON:API/RFC 9457), so this
+  file records only the compliance/security standards the provider explicitly
+  claims.
+standards:
+  - id: soc2-type-ii
+    conforms: true
+    evidence: >-
+      "SOC 2 Type II audited" stated on
+      conexiom.com/platform/data-security-and-privacy.
+  - id: gdpr
+    conforms: true
+    evidence: >-
+      "GDPR and privacy framework aligned" stated on
+      conexiom.com/platform/data-security-and-privacy.
+  - id: tls-1.2-plus
+    conforms: true
+    evidence: '"TLS 1.2+ in transit" encryption stated on the data-security page.'
+  - id: aes-256-at-rest
+    conforms: true
+    evidence: '"AES-256 encryption at rest" stated on the data-security page.'
+  - id: iso-27001
+    conforms: false
+    evidence: Not claimed on the public data-security page.
+  - id: pci-dss
+    conforms: false
+    evidence: Not claimed; Conexiom does not process card payments.
+  - id: hipaa
+    conforms: false
+    evidence: Not claimed on the public data-security page.
+compliance_page: https://conexiom.com/platform/data-security-and-privacy
